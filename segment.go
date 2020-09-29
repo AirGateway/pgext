@@ -3,7 +3,7 @@ package pgext
 import (
 	"io"
 
-	"github.com/AirGateway/pg/v10/pgjson"
+	"github.com/AirGateway/pg/pgjson"
 	"github.com/segmentio/encoding/json"
 )
 

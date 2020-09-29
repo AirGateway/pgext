@@ -4,7 +4,7 @@
 
 ```go
 import (
-    "github.com/AirGateway/pg/v10/pgjson"
+    "github.com/AirGateway/pg/pgjson"
     "github.com/AirGateway/pgext"
 )
 
