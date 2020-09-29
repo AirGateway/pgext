@@ -10,7 +10,7 @@ matrix:
   allow_failures:
     - go: tip
 
-go_import_path: github.com/go-pg/pgext
+go_import_path: github.com/AirGateway/pgext
 
 before_install:
   - curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s --

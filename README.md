@@ -4,8 +4,8 @@
 
 ```go
 import (
-    "github.com/go-pg/pg/v10/pgjson"
-    "github.com/go-pg/pgext"
+    "github.com/AirGateway/pg/v10/pgjson"
+    "github.com/AirGateway/pgext"
 )
 
 func init() {

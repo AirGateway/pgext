@@ -5,15 +5,15 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/go-pg/pg/v10"
-	"github.com/go-pg/pg/v10/orm"
+	"github.com/AirGateway/pg/v10"
+	"github.com/AirGateway/pg/v10/orm"
 	"go.opentelemetry.io/otel/api/global"
 	"go.opentelemetry.io/otel/api/trace"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/label"
 )
 
-var tracer = global.Tracer("github.com/go-pg/pg")
+var tracer = global.Tracer("github.com/AirGateway/pg")
 
 type queryOperation interface {
 	Operation() orm.QueryOp
@@ -79,7 +79,7 @@ func (h OpenTelemetryHook) AfterQuery(ctx context.Context, evt *pg.QueryEvent) e
 		query = query[:queryLimit]
 	}
 
-	fn, file, line := funcFileLine("github.com/go-pg/pg")
+	fn, file, line := funcFileLine("github.com/AirGateway/pg")
 
 	attrs := make([]label.KeyValue, 0, 10)
 	attrs = append(attrs,
