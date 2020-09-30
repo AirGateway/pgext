@@ -3,6 +3,8 @@ github.com/AirGateway/pg v0.0.0-20200930084906-aeae5ec92a49 h1:ovL0bjZ6edfXzSAUW
 github.com/AirGateway/pg v0.0.0-20200930084906-aeae5ec92a49/go.mod h1:bl5cdxLcaYoHVtPX8MMJWUbsuiobOBiSgN8/NSrgYeI=
 github.com/AirGateway/pg v0.0.0-20200930091817-4030b8ae4361 h1:PaaOEbecfIDIqD1hPuCgsB2LYKt1h3S0qiz4irk/SXA=
 github.com/AirGateway/pg v0.0.0-20200930091817-4030b8ae4361/go.mod h1:bl5cdxLcaYoHVtPX8MMJWUbsuiobOBiSgN8/NSrgYeI=
+github.com/AirGateway/pg v0.0.0-20200930124559-36b371c55322 h1:rHc868HL2Cetnzer7xZ/or7ZvDy+RB8/5FBIzCQSThE=
+github.com/AirGateway/pg v0.0.0-20200930124559-36b371c55322/go.mod h1:bl5cdxLcaYoHVtPX8MMJWUbsuiobOBiSgN8/NSrgYeI=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
